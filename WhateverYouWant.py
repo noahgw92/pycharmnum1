@@ -14,7 +14,7 @@ while True:
     event, values = window.read()
     if event == sg.WIN_CLOSED or event == 'Exit': # if user closes window or clicks cancel
         break
-    print("ID:",values[1],",",values[0])
+    print("ID:",values[1] +",",values[0])
     #print('event:', event)
     #print('values: ', values)
 
